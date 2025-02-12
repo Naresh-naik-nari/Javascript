@@ -1,4 +1,4 @@
-Question-1
+// Question-1
 function sayHello(){
     console.log('Hello world')
 }
@@ -30,7 +30,7 @@ function startProcess(){
 function endProcess(){
     console.log("Process Ended")
 }
-Question-6
+// Question-6
 function greetUser(Name){
     console.log("Hello",Name)
 }

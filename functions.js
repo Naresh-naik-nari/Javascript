@@ -38,7 +38,7 @@ greetUser('Naresh')
 greetUser('shiva')
 // Question-7
 function calculateSum(a,b){
-    console.log(a+b)
+    console.log(a+b,a-b)
 }
 calculateSum(2,5)
 calculateSum(8,9)
@@ -68,3 +68,7 @@ function beginSession(){
 function endSession(){
     console.log('Session Ended')
 }
+
+
+var x=6
+console.log(typeof x)

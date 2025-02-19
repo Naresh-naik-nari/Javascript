@@ -20,7 +20,7 @@ console.log(res)
 function calculate(x,y,callback){
         return callback(x,y)
 }
-var res=calculate(10,5,function(){
+var res=calculate(10,5,function(x,y){
     return x-y
 })
 console.log("Difference:",res)
